@@ -1,0 +1,46 @@
+header
+{  
+    position: fixed;
+    background: rgba(7, 21, 44, 0.2);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu
+{
+    flex-grow: 1;
+}
+
+.menu li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    transition: .3s
+}
+
+.menu a:hover{
+    color: #0091ff
+    
+}
+
+.menu ul 
+{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li {
+    margin-right: 50px;
+}
+
+.menu li:first-child{
+    margin-left: 100px;
+
+}
